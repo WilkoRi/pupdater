@@ -1,42 +1,24 @@
-__pycache__/
-*.py[cod]
-*$py.class
+# macOS
+.DS_Store
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual env
 venv/
 .env/
-.venv/
 
-build/
-dist/
-*.egg-info/
-
-pip-log.txt
-pip-delete-this-directory.txt
-
+# VSCode
 .vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
 
-.DS_Store
-Thumbs.db
-
-htmlcov/
-.tox/
-.coverage
-.cache
-.pytest_cache/
-
-*.log
-db.sqlite3
-*.pot
-*.pyc
-
-*.bak
-*.old
-*.swp
-
-pupdater_*.zip
+# Project files
+*.sqlite3
+*.zip
 tree.txt
 update_tree*.py
-
