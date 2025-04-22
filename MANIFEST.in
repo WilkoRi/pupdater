@@ -1,0 +1,2 @@
+recursive-include pupdater/templates *
+recursive-include pupdater/static *
