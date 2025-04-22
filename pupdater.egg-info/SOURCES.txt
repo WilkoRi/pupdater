@@ -27,8 +27,10 @@ pupdater/views.py
 pupdater.egg-info/PKG-INFO
 pupdater.egg-info/SOURCES.txt
 pupdater.egg-info/dependency_links.txt
+pupdater.egg-info/entry_points.txt
 pupdater.egg-info/requires.txt
 pupdater.egg-info/top_level.txt
+pupdater/cli/__init__.py
 pupdater/cli/config.py
 pupdater/cli/entrypoint.py
 pupdater/install/__init__.py

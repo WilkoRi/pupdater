@@ -4,30 +4,16 @@ Version: 1.1
 Summary: 🐾 Pupdater: A Django Admin pip manager.
 Home-page: https://github.com/WilkoRi/pupdater
 Author: Wilko Rietveld
-Author-email: wilkorietveld@icloud.com
-License: BSD-3-Clause
-Classifier: Framework :: Django
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: BSD License
-Classifier: Operating System :: OS Independent
-Classifier: Intended Audience :: Developers
-Classifier: Environment :: Web Environment
-Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Author-email: Wilko Rietveld <wilkorietveld@icloud.com>
+License-Expression: BSD-3-Clause
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: django>=3.2
 Dynamic: author
-Dynamic: author-email
-Dynamic: classifier
-Dynamic: description
-Dynamic: description-content-type
 Dynamic: home-page
-Dynamic: license
 Dynamic: license-file
-Dynamic: requires-dist
 Dynamic: requires-python
-Dynamic: summary
 
 # 🐾 Pupdater – pip manager for Django Admin
 

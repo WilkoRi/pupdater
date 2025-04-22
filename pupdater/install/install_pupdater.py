@@ -64,13 +64,16 @@ def main():
         update_settings(settings_path)
     except FileNotFoundError as e:
         print(e)
+        return
 
     try:
-        urls_path = find_path("urls.py")
+        urls_path = os.path.join(os.path.dirname(settings_path), "urls.py")
+        if not os.path.isfile(urls_path):
+            raise FileNotFoundError
         print(f"🎯 urls found at: {urls_path}")
         update_urls_force(urls_path)
-    except FileNotFoundError as e:
-        print(e)
+    except FileNotFoundError:
+        print("❌ matching urls.py not found next to settings.py")
 
 if __name__ == "__main__":
     main()
