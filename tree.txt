@@ -1,0 +1,124 @@
+/Users/wilko/projecten/m_one_project
+├── LICENSE
+├── MANIFEST.in
+├── README.md
+├── dashboard
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── admin.cpython-311.pyc
+│   │   ├── apps.cpython-311.pyc
+│   │   ├── models.cpython-311.pyc
+│   │   ├── urls.cpython-311.pyc
+│   │   └── views.cpython-311.pyc
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── models.py
+│   ├── templates
+│   │   └── home
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── db.sqlite3
+├── dist
+│   ├── pupdater-1.1-py3-none-any.whl
+│   └── pupdater-1.1.tar.gz
+├── m_one
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── settings.cpython-311.pyc
+│   │   ├── urls.cpython-311.pyc
+│   │   └── wsgi.cpython-311.pyc
+│   ├── asgi.py
+│   ├── install_pupdater.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+├── pupdater
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── admin.cpython-311.pyc
+│   │   ├── apps.cpython-311.pyc
+│   │   ├── models.cpython-311.pyc
+│   │   ├── urls.cpython-311.pyc
+│   │   └── views.cpython-311.pyc
+│   ├── admin.py
+│   ├── apps.py
+│   ├── install
+│   │   ├── __init__.py
+│   │   └── install_pupdater.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_alter_pipfreezesnapshot_options.py
+│   │   ├── 0003_alter_pipfreezesnapshot_options_and_more.py
+│   │   ├── 0004_alter_pipfreezesnapshot_options_and_more.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── models.py
+│   ├── static
+│   │   └── pupdater
+│   ├── templates
+│   │   └── pupdater
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── pupdater.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   ├── requires.txt
+│   └── top_level.txt
+├── pupdater_1.1.zip
+├── pyproject.toml
+├── requirements.txt
+├── setup.py
+├── tree.txt
+├── update_tree kopie 2.py
+└── venv
+    ├── bin
+    │   ├── Activate.ps1
+    │   ├── activate
+    │   ├── activate.csh
+    │   ├── activate.fish
+    │   ├── django-admin
+    │   ├── f2py
+    │   ├── install_pupdater
+    │   ├── ipython
+    │   ├── ipython3
+    │   ├── jsonschema
+    │   ├── jupyter
+    │   ├── jupyter-dejavu
+    │   ├── jupyter-execute
+    │   ├── jupyter-kernel
+    │   ├── jupyter-kernelspec
+    │   ├── jupyter-migrate
+    │   ├── jupyter-nbconvert
+    │   ├── jupyter-run
+    │   ├── jupyter-troubleshoot
+    │   ├── jupyter-trust
+    │   ├── normalizer
+    │   ├── numpy-config
+    │   ├── pip
+    │   ├── pip3
+    │   ├── pip3.9
+    │   ├── pygmentize
+    │   ├── pyproject-build
+    │   ├── python -> python3
+    │   ├── python3 -> /Applications/Xcode.app/Contents/Developer/usr/bin/python3
+    │   ├── python3.9 -> python3
+    │   └── sqlformat
+    ├── include
+    ├── lib
+    │   └── python3.9
+    ├── pyvenv.cfg
+    └── share
+        ├── jupyter
+        └── man
+
+36 directories, 112 files

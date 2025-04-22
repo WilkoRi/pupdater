@@ -1,0 +1,7 @@
+Django==4.2.20
+appnope==0.1.4
+asgiref==3.8.1
+asttokens==3.0.0
+attrs==25.3.0
+backcall==0.2.0
+beautifulsoup4==4.13.4
