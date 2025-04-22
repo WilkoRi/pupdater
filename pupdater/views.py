@@ -131,6 +131,9 @@ def pip_manager_view(request):
             except PipFreezeSnapshot.DoesNotExist:
                 messages.error(request, "Snapshot not found for deletion.")
 
+
+#=======================
+
         elif "compare_snapshots" in request.POST:
             id1 = request.POST.get("snapshot_id_1")
             id2 = request.POST.get("snapshot_id_2")
@@ -149,6 +152,9 @@ def pip_manager_view(request):
                     {"name": name, "v1": lookup(snap1.raw_data, name), "v2": lookup(snap2.raw_data, name)}
                     for name in names
                 ]
+
+                request.session["compare_data"] = context["compare_data"]  # ✅ FIX HIER
+
                 context["compare_ids"] = [snap1.created, snap2.created]
                 context["compare_counts"] = [len(snap1.raw_data), len(snap2.raw_data)]
                 context["show_compare"] = True
@@ -156,6 +162,15 @@ def pip_manager_view(request):
                 context["snapshots"] = PipFreezeSnapshot.objects.order_by("-created")
             except Exception as e:
                 messages.error(request, f"Compare error: {e}")
+
+
+
+
+
+
+# =========================
+
+
 
         else:
             # fallback: toon bestaande freeze_results
