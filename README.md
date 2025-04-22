@@ -67,14 +67,6 @@ install_pupdater
 - Only Django superusers can perform package upgrades
 - Export your environment as backup or for reproducibility
 
----
-
-## 📬 Contact
-
-- GitHub: [WilkoRi](https://github.com/WilkoRi)
-- Email: wilkorietveld@icloud.com
-
----
 
 © Wilko Rietveld – BSD-3-Clause License
 
