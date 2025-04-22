@@ -24,18 +24,6 @@ pupdater/models.py
 pupdater/tests.py
 pupdater/urls.py
 pupdater/views.py
-pupdater kopie/__init__.py
-pupdater kopie/admin.py
-pupdater kopie/apps.py
-pupdater kopie/models.py
-pupdater kopie/tests.py
-pupdater kopie/urls.py
-pupdater kopie/views.py
-pupdater kopie/migrations/0001_initial.py
-pupdater kopie/migrations/0002_alter_pipfreezesnapshot_options.py
-pupdater kopie/migrations/0003_alter_pipfreezesnapshot_options_and_more.py
-pupdater kopie/migrations/0004_alter_pipfreezesnapshot_options_and_more.py
-pupdater kopie/migrations/__init__.py
 pupdater.egg-info/PKG-INFO
 pupdater.egg-info/SOURCES.txt
 pupdater.egg-info/dependency_links.txt

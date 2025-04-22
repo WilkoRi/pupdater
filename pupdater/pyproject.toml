@@ -1,5 +1,7 @@
 [project.scripts]
+pupdater = "pupdater.cli.entrypoint:main"
 install_pupdater = "pupdater.install.install_pupdater:main"
+
 
 [tool.setuptools.packages.find]
 include = ["pupdater*"]

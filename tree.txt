@@ -50,6 +50,9 @@
 │   │   └── views.cpython-311.pyc
 │   ├── admin.py
 │   ├── apps.py
+│   ├── cli
+│   │   ├── config.py
+│   │   └── entrypoint.py
 │   ├── install
 │   │   ├── __init__.py
 │   │   └── install_pupdater.py
@@ -61,6 +64,7 @@
 │   │   ├── __init__.py
 │   │   └── __pycache__
 │   ├── models.py
+│   ├── pyproject.toml
 │   ├── static
 │   │   └── pupdater
 │   ├── templates
@@ -78,47 +82,3 @@
 ├── pyproject.toml
 ├── requirements.txt
 ├── setup.py
-├── tree.txt
-├── update_tree kopie 2.py
-└── venv
-    ├── bin
-    │   ├── Activate.ps1
-    │   ├── activate
-    │   ├── activate.csh
-    │   ├── activate.fish
-    │   ├── django-admin
-    │   ├── f2py
-    │   ├── install_pupdater
-    │   ├── ipython
-    │   ├── ipython3
-    │   ├── jsonschema
-    │   ├── jupyter
-    │   ├── jupyter-dejavu
-    │   ├── jupyter-execute
-    │   ├── jupyter-kernel
-    │   ├── jupyter-kernelspec
-    │   ├── jupyter-migrate
-    │   ├── jupyter-nbconvert
-    │   ├── jupyter-run
-    │   ├── jupyter-troubleshoot
-    │   ├── jupyter-trust
-    │   ├── normalizer
-    │   ├── numpy-config
-    │   ├── pip
-    │   ├── pip3
-    │   ├── pip3.9
-    │   ├── pygmentize
-    │   ├── pyproject-build
-    │   ├── python -> python3
-    │   ├── python3 -> /Applications/Xcode.app/Contents/Developer/usr/bin/python3
-    │   ├── python3.9 -> python3
-    │   └── sqlformat
-    ├── include
-    ├── lib
-    │   └── python3.9
-    ├── pyvenv.cfg
-    └── share
-        ├── jupyter
-        └── man
-
-36 directories, 112 files
