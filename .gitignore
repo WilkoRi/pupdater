@@ -22,3 +22,5 @@ venv/
 *.zip
 tree.txt
 update_tree*.py
+dashboard/
+m_one/
