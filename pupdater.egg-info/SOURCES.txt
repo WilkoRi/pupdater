@@ -29,6 +29,8 @@ pupdater.egg-info/SOURCES.txt
 pupdater.egg-info/dependency_links.txt
 pupdater.egg-info/requires.txt
 pupdater.egg-info/top_level.txt
+pupdater/cli/config.py
+pupdater/cli/entrypoint.py
 pupdater/install/__init__.py
 pupdater/install/install_pupdater.py
 pupdater/migrations/0001_initial.py
